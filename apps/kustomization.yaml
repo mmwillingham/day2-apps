@@ -4,7 +4,7 @@ commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 resources:
 - ./swagger/app-swagger.yaml
-# ./acm/app-acm.yaml
-# ./helmrepos/app-helmrepos.yaml
-# ./consolelinks/app-consoleLinks.yaml
-# ./mysql/app-mysql.yaml
+- ./mysql/app-mysql.yaml
+#- ./acm/app-acm.yaml
+#- ./helmrepos/app-helmrepos.yaml
+#- ./consolelinks/app-consoleLinks.yaml
